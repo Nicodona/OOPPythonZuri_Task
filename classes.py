@@ -136,9 +136,4 @@ elif choice == 4:
 
 
 
-# elif choice == 2:
-#     food.withdraw()
-# else:
-#     pass
-
 
