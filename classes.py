@@ -45,8 +45,7 @@ class Budget:
     def transferTo(self):
         transfer = int(input('How much do you want to transfer from this account'))
         self.amount = self.amount - transfer
-        ay = transfer
-        return self.amount
+        return transfer
 
     def transferFrom(self):
 
