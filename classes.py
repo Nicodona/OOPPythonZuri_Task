@@ -9,21 +9,6 @@ class Budget:
         deposite_to = int(input('how much do you want to deposite from '))
         self.amount = self.amount + deposite_to
         return self.amount
-        #
-        # if option == 'food':
-        #     food.amount = food.amount + deposite_to
-        #     return food.amount
-        #
-        # elif option == 'clothing':
-        #     clothing.amount = clothing.amount + deposite_to
-        #     return clothing.amount
-        #
-        # elif option == 'entertainment':
-        #     entertaintment.amount = entertaintment.amount + deposite_to
-        #     return entertaintment.amount
-        # else:
-        #     print('invalid otption')
-        #     return None
 
     def withdraw(self):
         withdraw_from = int(input('how much do you want to withdrwa from '))
