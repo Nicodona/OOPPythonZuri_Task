@@ -1,15 +1,3 @@
-# class Yowa:
-#     eleven = 12
-#
-#     def onLine(self):
-#         print('hello world')
-#
-#
-#
-#
-# print(Yowa.eleven)
-# print(Yowa.onLine)
-
 
 class Budget:
     def __init__(self, categories: str, amount: int=0):
