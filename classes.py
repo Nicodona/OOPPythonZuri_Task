@@ -1,4 +1,4 @@
-
+''' the budge t class created below has four methods and three attributes '''
 class Budget:
     def __init__(self, categories: str, amount: int=0):
         self.categories = categories
@@ -29,7 +29,7 @@ class Budget:
         acc = food.amount+clothing.amount+entertaintment.amount
         return acc
 
-# objects or instance of the class Budget
+
 food = Budget('food', 20000)
 clothing = Budget('clothing', 10000)
 entertaintment = Budget('entertainment', 5000)
