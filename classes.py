@@ -45,7 +45,7 @@ if choice == 1:
        print(food.amount)
     elif obj == 2:
         clothing.deposite()
-        print(clothing.amount)
+        print('new balance: {}'.format(clothing.amount))
     elif obj == 3:
         entertaintment.deposite()
         print(entertaintment.amount)
@@ -58,7 +58,7 @@ elif choice == 2:
        print(food.amount)
     elif obj == 2:
         clothing.withdraw()
-        print(clothing.amount)
+        print('new balance {} '.format(clothing.amount))
     elif obj == 3:
         entertaintment.withdraw()
         print(entertaintment.amount)
@@ -78,7 +78,7 @@ elif choice == 3:
             print(clothing.amount)
         elif trans == 2:
             entertaintment.amount = entertaintment.amount + ac.transferTo()
-            print(entertaintment.amount)
+            print('new balance: {}'.format(entertaintment.amount))
         else:
             print('invalid object selection')
 
@@ -95,11 +95,11 @@ elif choice == 3:
         trans = int(input('which category are you traffering cash to?'))
         if trans == 1:
             food.amount = food.amount + ac.transferTo()
-            print(food.amount)
+            print('new balance: {}'.format(food.amount))
 
         elif trans == 2:
             entertaintment.amount = entertaintment.amount + ac.transferTo()
-            print(entertaintment.amount)
+            print('new balance: {}'.format(entertaintment.amount))
         else:
             print('invalid object selection')
 
