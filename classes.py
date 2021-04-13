@@ -33,7 +33,7 @@ class Budget:
 food = Budget('food', 20000)
 clothing = Budget('clothing', 10000)
 entertaintment = Budget('entertainment', 5000)
-ac = Budget('', '' )
+ac = Budget('', '')
 
 #codes to test the class by calling class methods and attributes and also other manipulations
 print('what do you want to do with a category')
