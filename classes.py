@@ -7,16 +7,19 @@ class Budget:
     def deposite(self):
         # option = input('which category do you want to deposite money from')
         deposite_to = int(input('how much do you want to deposite from '))
+        print('you have successfully deposited {} into this Acoount'.format(deposite_to))
         self.amount = self.amount + deposite_to
         return self.amount
 
     def withdraw(self):
         withdraw_from = int(input('how much do you want to withdrwa from '))
         self.amount = self.amount - withdraw_from
+        print('you have successfully withdraw {} from this Account'.format(withdraw_from))
         return self.amount
 
     def transferTo(self):
         transfer = int(input('How much do you want to transfer from this account'))
+        print('you have successfully transfered {} from this account'.format(transfer))
         self.amount = self.amount - transfer
         return transfer
 
