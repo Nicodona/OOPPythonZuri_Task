@@ -113,7 +113,7 @@ def operation():
             print(' enter 1 to transfer to food category ')
             print(' enter 2 to transfer to clothing category ')
 
-            print('new balancece: {}'.format(entertaintment.amount))
+            print('new balancece:{}'.format(entertaintment.amount))
             trans = int(input('which category are you traffering cash to?'))
 
 
